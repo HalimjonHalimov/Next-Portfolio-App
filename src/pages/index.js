@@ -1,9 +1,5 @@
-import { Header, Seo } from '../components';
+import { Hero, Navbar, Seo } from '../components';
 import { useRouter } from 'next/router';
-import Swiper from 'swiper/bundle';
-import 'swiper/css/bundle';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 import AOS from 'aos';
 
 import styles from '../styles/Home.module.css'
@@ -24,7 +20,7 @@ export default function Home() {
   return (
     <Seo>
       <Layout>
-        <h1> Home pages </h1>
+        <Hero />
       </Layout>
     </Seo>
   )

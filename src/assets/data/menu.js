@@ -2,26 +2,26 @@ export const navItems = [
     {
         id: 1,
         label: 'Home',
-        route: ''
+        route: '/'
     },
     {
         id: 2,
         label: 'About',
-        route: 'about'
+        route: '/about'
     },
     {
         id: 3,
         label: 'Collections',
-        route: 'collections'
+        route: '/collections'
     },
     {
         id: 4,
         label: 'Pages',
-        route: 'pages'
+        route: '/pages'
     },
     {
         id: 5,
         label: 'Contact',
-        route: 'contact'
+        route: '/contact'
     },
-]
+];

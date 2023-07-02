@@ -1,3 +1,6 @@
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +12,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: #fff;
-    padding-top: 170px;
+    padding-top: 10px;
     background-image: url('../assets/images/background/bg-element.jpg');
 }
 
