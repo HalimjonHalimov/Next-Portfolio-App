@@ -72,7 +72,7 @@ function DrawerAppBar(props) {
 
   return (
     <Box sx={{ display: 'flex'}}>
-      <AppBar className={`${navbar ? 'navbarActiveBackground' : ' '}`} component="nav"  sx={{ boxShadow: 'none', border: '1px solid green' }}>
+      <AppBar className={`${navbar ? 'navbarActiveBackground' : ' '}`} component="nav">
         <Toolbar>
           <IconButton
             color="inherit"
