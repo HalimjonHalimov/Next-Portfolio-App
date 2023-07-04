@@ -9,7 +9,6 @@ const Layout = ({children}) => {
            <Box>    
             {children}
            </Box>
-           <Box height={'90vh'}></Box>
         <Footer />
     </Box>
   )
